@@ -192,16 +192,30 @@ nav a:hover {
 
 
 @media (max-width: 1023px) {
-    section {
-        height: 100vh;
+    header {
+        padding: 10px;
+    }
+    nav a {
+        margin-right: 2px;
+    }
+    .parag {
+        width: auto;
     }
     .content {
+        width: 100%;
         flex-direction: column-reverse;
+        padding: 10px;
     }
     .main {
         text-align: center;
     }
     .bg-photo {
         margin-bottom: 30px;
+    }
+    .founder {
+        width: auto;
+    }
+    .get .text-style {
+        width: 340px;
     }
 }
