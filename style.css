@@ -192,19 +192,36 @@ nav a:hover {
 
 
 @media (max-width: 1023px) {
+    body {
+        font-size: 16px;
+    }
+    .title {
+        font-size: 12px;
+    }
     header {
-        padding: 10px;
+        padding: 20px;
+    }
+    .second .title {
+        text-align: center;
+    }
+    header img {
+        width: 60%;
+    }
+    .second {
+        background: url("images/bg-curve-mobile.svg") no-repeat scroll center;
+        background-size: cover;
     }
     nav a {
         margin-right: 2px;
     }
     .parag {
         width: auto;
+        text-align: left;
     }
     .content {
         width: 100%;
         flex-direction: column-reverse;
-        padding: 10px;
+        padding: 20px;
     }
     .main {
         text-align: center;
@@ -213,9 +230,21 @@ nav a:hover {
         margin-bottom: 30px;
     }
     .founder {
-        width: auto;
+        width: 300px;
+        margin: auto;
     }
     .get .text-style {
         width: 340px;
+    }
+    .email-input .text-style {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .email-input .btn-style {
+        width: 250px;
+        margin:0;
+    }
+    .get .content {
+        flex-direction: column;
     }
 }
